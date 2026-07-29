@@ -49,12 +49,6 @@ Phần chia sẻ cũng đề cập đến cách sử dụng VPC và Security Gro
 
 Sự kiện cũng giới thiệu một số dịch vụ hỗ trợ giám sát và phát hiện rủi ro như CloudTrail, GuardDuty, Security Hub và AWS Shield Standard. CloudTrail giúp theo dõi lịch sử API call, GuardDuty hỗ trợ phát hiện hành vi bất thường, Security Hub tổng hợp các cảnh báo bảo mật, còn Shield Standard giúp bảo vệ cơ bản trước các cuộc tấn công DDoS đối với những dịch vụ được hỗ trợ.
 
-### Thực hành trong Free Tier
-
-Em cũng học được cách thực hành bảo mật AWS trong phạm vi Free Tier một cách cẩn thận. Một số bước phù hợp gồm bật MFA, tạo billing alert, sử dụng IAM, kiểm tra CloudTrail Event History, cấu hình S3 Block Public Access, thực hành với EC2 và S3 quy mô nhỏ, đồng thời chỉ thử các dịch vụ có trial như GuardDuty hoặc Security Hub trong một Region và tắt trước khi phát sinh chi phí.
-
-Sự kiện cũng lưu ý rằng một số dịch vụ hoặc cấu hình có thể phát sinh chi phí nếu sử dụng không kiểm soát, chẳng hạn AWS Config trên nhiều tài nguyên, CloudTrail data events, NAT Gateway, WAF, Shield Advanced hoặc các tính năng trả phí của IAM Access Analyzer.
-
 ## Bài học rút ra
 
 Sau khi tham gia sự kiện, em hiểu rõ hơn cách một Cloud Architect tư duy khi thiết kế hệ thống trên AWS. Kiến trúc tốt cần cân bằng giữa hiệu năng, bảo mật, khả năng mở rộng, độ tin cậy và chi phí vận hành.

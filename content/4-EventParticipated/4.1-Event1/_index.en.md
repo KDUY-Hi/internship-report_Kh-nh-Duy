@@ -49,12 +49,6 @@ For data protection, configurations such as S3 Block Public Access, encryption a
 
 The event introduced several services that support monitoring and risk detection, including CloudTrail, GuardDuty, Security Hub, and AWS Shield Standard. CloudTrail helps track API activity history, GuardDuty supports abnormal behavior detection, Security Hub aggregates security findings, and Shield Standard provides basic DDoS protection for supported AWS services.
 
-### Practice Within the Free Tier
-
-I also learned how to practice AWS security carefully within the Free Tier. Suitable steps include enabling MFA, creating billing alerts, using IAM, reviewing CloudTrail Event History, configuring S3 Block Public Access, practicing with small EC2 and S3 labs, and testing trial services such as GuardDuty or Security Hub in a single Region before disabling them to avoid unexpected costs.
-
-The session also noted that some services or configurations may generate costs if used without control, such as AWS Config across many resources, CloudTrail data events, NAT Gateway, WAF, Shield Advanced, or paid features of IAM Access Analyzer.
-
 ## Lessons Learned
 
 After attending the event, I gained a clearer understanding of how a Cloud Architect thinks when designing systems on AWS. A good architecture needs to balance performance, security, scalability, reliability, and operating cost.
