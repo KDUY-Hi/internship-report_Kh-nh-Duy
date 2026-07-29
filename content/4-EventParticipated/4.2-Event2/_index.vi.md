@@ -17,7 +17,7 @@ pre: " <b> 4.2. </b> "
 
 ## Hình ảnh sự kiện
 
-![Hình ảnh FCAJ x Agentic AI Build Week](/images/event2.png)
+![Hình ảnh FCAJ x Agentic AI Build Week](../../images/event2.png)
 
 ## Nội dung tham gia
 

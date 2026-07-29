@@ -17,7 +17,7 @@ pre: " <b> 4.1. </b> "
 
 ## Event Image
 
-![Cloud Architect Competition Final event image](/images/event1.png)
+![Cloud Architect Competition Final event image](../../../images/event1.png)
 
 ## Participation Summary
 
