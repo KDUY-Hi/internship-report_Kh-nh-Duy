@@ -13,6 +13,7 @@ This section describes the practical project built by the team to apply backend,
 1. [Backend API](3.1-Blog1/)
 2. [Frontend Application](3.2-Blog2/)
 3. [Business Flow and Testing](3.3-Blog3/)
+4. [Blogs Posted](3.4-BlogsPosted/)
 
 ## Technology Stack
 
