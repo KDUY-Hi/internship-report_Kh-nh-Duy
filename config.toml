@@ -19,9 +19,9 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.vi]
-title = "Báo cáo thực tập"
+title = "Bao cao thuc tap"
 weight = 1
-label = "Tiếng Việt"
+label = "Tieng Viet"
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
@@ -30,7 +30,7 @@ url = "https://awsstudygroup.com"
 weight = 20
 
 [[Languages.vi.menu.shortcuts]]
-name = "<i class='fab fa-facebook'></i> AWS Study Group - Nhóm FB"
+name = "<i class='fab fa-facebook'></i> AWS Study Group - Nhom FB"
 identifier = "AWS Study Group FB"
 url = "https://www.facebook.com/groups/awsstudygroupfcj"
 weight = 20
