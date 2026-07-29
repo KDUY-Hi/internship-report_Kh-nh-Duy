@@ -1,32 +1,53 @@
 ---
-title : "Clean up"
+title : "Testing, Monitoring, and Cleanup"
 date : 2024-01-01
 weight : 6
 chapter : false
 pre : " <b> 5.6. </b> "
 ---
-Congratulations on completing this workshop! 
-In this workshop, you learned architecture patterns for accessing Amazon S3 without using the Public Internet. 
-+ By creating a gateway endpoint, you enabled direct communication between EC2 resources and Amazon S3, without traversing an Internet Gateway. 
-+ By creating an interface endpoint you extended S3 connectivity to resources running in your on-premises data center via AWS Site-to-Site VPN or Direct Connect. 
 
-#### clean up
-1. Navigate to Hosted Zones on the left side of Route 53 console. Click the name of *s3.us-east-1.amazonaws.com* zone. Click Delete and confirm deletion by typing delete. 
+# Testing, Monitoring, and Cleanup
 
-![hosted zone](/images/5-Workshop/5.6-Cleanup/delete-zone.png)
+## 1. Post-deployment Testing
 
-2. Disassociate the Route 53 Resolver Rule - myS3Rule from "VPC Onprem" and Delete it. 
+Final test flow:
 
-![hosted zone](/images/5-Workshop/5.6-Cleanup/vpc.png)
+1. Open the frontend domain.
+2. Log in as a company.
+3. Create a company profile.
+4. Create an internship post.
+5. Log in as an admin.
+6. Admin approves the post.
+7. Log in as a student.
+8. Update the student profile.
+9. Upload CV to S3.
+10. Apply to the approved internship.
+11. Company updates the application status.
+12. Student checks the notification.
 
-4. Open the CloudFormation console  and delete the two CloudFormation Stacks that you created for this lab:
-+ PLOnpremSetup
-+ PLCloudSetup
+## 2. CloudWatch Logs
 
-![delete stack](/images/5-Workshop/5.6-Cleanup/delete-stack.png)
+FastAPI writes logs to stdout/stderr. When running on EC2, CloudWatch Agent can send those logs to CloudWatch Logs.
 
-5. Delete S3 buckets
-+ Open S3 console
-+ Choose the bucket we created for the lab, click and confirm empty. Click delete and confirm delete.
+Information to monitor:
 
-![delete s3](/images/5-Workshop/5.6-Cleanup/delete-s3.png)
+- 4xx/5xx API errors.
+- RDS connection errors.
+- S3 upload or read errors.
+- Health check frequency.
+- EC2 CPU, RAM, and disk usage.
+
+## 3. Cleanup
+
+After the demo or workshop, unused resources should be cleaned up to avoid unexpected costs:
+
+- Stop or terminate EC2 instance.
+- Delete demo RDS if data does not need to be kept.
+- Delete objects in the CV S3 bucket.
+- Delete the demo frontend S3 bucket.
+- Delete CloudWatch log groups if logs are no longer needed.
+- Check the billing dashboard.
+
+## 4. Workshop Conclusion
+
+The workshop helped the team understand how to deploy a practical web application on AWS: backend on EC2, data in RDS, CV files in a private S3 bucket, frontend on static hosting, and logs monitored through CloudWatch.

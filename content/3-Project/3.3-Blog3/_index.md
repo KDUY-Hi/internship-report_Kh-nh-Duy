@@ -1,31 +1,44 @@
 ---
-title: "Blog 3"
+title: "Business Flow and Testing"
 date: 2024-01-01
-weight: 1
+weight: 3
 chapter: false
 pre: " <b> 3.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+# Business Flow and Testing
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+## Main Demo Flow
 
-Key points to know:
+1. A company registers or logs in.
+2. The company creates a company profile.
+3. The company publishes an internship position.
+4. An admin logs in and approves the post.
+5. A student registers or logs in.
+6. The student creates a profile and uploads a CV.
+7. The student views approved internship posts and applies.
+8. The company views the applicant list.
+9. The company opens the CV through a presigned URL.
+10. The company updates the application status.
+11. The student receives a status notification.
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+## Test Cases
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+The backend includes automated tests for important flows:
 
-...Image...
+- Company creates an internship post.
+- Admin approves the post.
+- Student uploads CV and applies.
+- Company updates application status.
+- Notification is created when status changes.
+- Duplicate applications are blocked.
+- Expired deadlines are blocked.
+- Locked accounts are blocked.
+- Admin/company/student authorization is checked.
+- GPA, recruitment quantity, and CV file size are validated.
+- Analytics for skills, positions, salary, and locations are tested.
+- Forum features are tested: posting, approval, comments, likes, saves, and moderation.
 
-...Link...
+## Result
 
-...Guide...
+After development and testing, the project supports the main business flow of an internship management system. It can run locally with SQLite for quick demos and has production configuration for AWS deployment with RDS PostgreSQL, S3, EC2, and CloudWatch.

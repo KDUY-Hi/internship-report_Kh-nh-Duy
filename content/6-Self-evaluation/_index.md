@@ -1,39 +1,35 @@
 ---
-title: "Self-Assessment"
+title: "Self-evaluation"
 date: 2024-01-01
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Self-evaluation
 
-During my internship at **[Company/Organization Name]** from **[start date]** to **[end date]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
+## Achievements
 
-In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
+Through the **Cloud-based Student Internship Portal on AWS** project, I gained a clearer understanding of how to build a complete web application with frontend, backend, database, storage, and cloud deployment.
 
-To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
+Skills improved:
 
-| No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅    | ☐    | ☐       |
-| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅    | ☐       |
-| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ✅    | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ☐    | ☐    | ✅       |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ☐    | ✅    | ☐       |
-| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ✅    | ☐       |
-| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅    | ☐    | ☐       |
-| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅    | ☐    | ☐       |
-| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅    | ☐       |
-| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
+- Requirement analysis and feature breakdown by user role.
+- REST API development with FastAPI.
+- Relational database design with SQLAlchemy and Alembic.
+- JWT authentication and role-based authorization.
+- Amazon S3 integration for private CV storage.
+- Amazon RDS PostgreSQL configuration for production.
+- Backend deployment on EC2 and frontend deployment on S3/CloudFront.
+- Basic log monitoring with CloudWatch.
 
-### Needs Improvement
+## Difficulties
 
-* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization  
-* Improve problem-solving thinking  
-* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+- Correctly handling authorization among student, company, and admin roles.
+- Ensuring CV files are not public while still allowing authorized users to view them.
+- Configuring CORS correctly when frontend and backend run on different domains.
+- Migrating from local SQLite to production PostgreSQL without schema inconsistencies.
+
+## Lessons Learned
+
+The project helped me understand the difference between running an application locally and deploying it on the cloud. Beyond writing code, a practical system also requires networking, access control, environment configuration, file storage, database migration, and monitoring.

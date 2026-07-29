@@ -1,43 +1,50 @@
 ---
-title : "Create an S3 Interface endpoint"
+title : "Install Backend on EC2"
 date : 2024-01-01
 weight : 2
 chapter : false
-pre : " <b> 5.4.2 </b> "
+pre : " <b> 5.4.2. </b> "
 ---
 
-In this section you will create and test an S3 interface endpoint using the simulated on-premises environment deployed as part of this workshop.
+# Install Backend on EC2
 
-1. Return to the Amazon VPC menu. In the navigation pane, choose Endpoints, then click Create Endpoint.
+## Install Runtime
 
-2. In Create endpoint console:
-+ Name the interface endpoint
-+ In Service category, choose **aws services** 
+```bash
+sudo apt update
+sudo apt install -y python3 python3-venv python3-pip nginx
+```
 
-![name](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint1.png)
+## Install Dependencies
 
-3.  In the Search box, type S3 and press Enter. Select the endpoint named com.amazonaws.us-east-1.s3. Ensure that the Type column indicates Interface.
+```bash
+cd backend
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
 
-![service](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint2.png)
+## Configure Production Environment
 
-4. For VPC, select VPC Cloud from the drop-down.
-{{% notice warning %}}
-Make sure to choose "VPC Cloud" and not "VPC On-prem"
-{{% /notice %}}
-+ Expand **Additional settings** and ensure that Enable DNS name is *not* selected (we will use this in the next part of the workshop)
+```env
+ENVIRONMENT=production
+DATABASE_URL=postgresql+psycopg2://app_user:<password>@<rds-endpoint>:5432/internship_portal
+AWS_REGION=ap-southeast-1
+S3_BUCKET_NAME=<your-cv-bucket>
+BACKEND_CORS_ORIGINS=https://your-frontend-domain.com
+```
 
-![vpc](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint3.png)
+## Run Migration and Seed Data
 
-5. Select 2 subnets in the following AZs: us-east-1a and us-east-1b
+```bash
+alembic upgrade head
+python seed.py
+```
 
-![subnets](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint4.png)
+## Start Backend
 
-6. For Security group, choose SGforS3Endpoint:
+```bash
+python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+```
 
-![sg](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint5.png)
-
-7. Keep the default policy - full access and click Create endpoint
-
-![success](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint-success.png)
-
-Congratulation on successfully creating S3 interface endpoint. In the next step, we will test the interface endpoint.
+In a real production environment, the backend should run with `systemd` so it can restart automatically after EC2 reboots or process failures.

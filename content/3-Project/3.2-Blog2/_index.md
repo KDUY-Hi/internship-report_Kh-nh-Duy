@@ -1,31 +1,61 @@
 ---
-title: "Blog 2"
+title: "Frontend Application"
 date: 2024-01-01
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+# Frontend Application
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+The frontend is built with **ReactJS + Vite** and provides separate interfaces for students, companies, and administrators.
 
-Key points to know:
+## Frontend Structure
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+```text
+frontend/
+  src/
+    api/
+    components/
+    hooks/
+    pages/
+    utils/
+    main.jsx
+    styles.css
+  index.html
+  package.json
+```
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+## Page Groups
 
-...Image...
+### Student
 
-...Link...
+- `/student/home`: student dashboard.
+- `/student/jobs`: internship list.
+- `/student/companies`: company list.
+- `/student/applications`: submitted applications.
+- `/student/profile`: personal profile and CV.
+- `/student/insights`: recruitment-market insights.
+- `/student/forum`: community forum.
 
-...Guide...
+### Company
+
+- `/company/home`: company dashboard.
+- `/company/jobs`: internship post management.
+- `/company/applicants`: applicant list.
+- `/company/profile`: company profile.
+
+### Admin
+
+- `/admin/home`: overview dashboard.
+- `/admin/users`: user management.
+- `/admin/posts`: internship post approval.
+- `/admin/job-positions`: job-position management.
+- `/admin/skills`: skill management.
+- `/admin/forum`: forum management.
+
+## Backend Connection
+
+The frontend calls APIs through `src/api/client.js`. In local development, it connects to the backend on port `8000`. In production, the `VITE_API_URL` environment variable points to the real API domain.
+
+The frontend design focuses on clear workflows: role-based login, routing to the correct dashboard, displaying API data, and showing loading/error states to users.
