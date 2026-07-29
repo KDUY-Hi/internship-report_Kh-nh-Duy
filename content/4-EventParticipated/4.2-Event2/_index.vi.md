@@ -15,6 +15,10 @@ pre: " <b> 4.2. </b> "
 | Địa điểm | Tầng 26, Bitexco Financial Tower |
 | Vai trò | Người tham dự |
 
+## Hình ảnh sự kiện
+
+![Hình ảnh FCAJ x Agentic AI Build Week](/images/event2.jpg)
+
 ## Nội dung tham gia
 
 Trong chương trình, em được theo dõi các phần giới thiệu, trình diễn sản phẩm và thuyết trình ý tưởng của nhiều đội thi. Các dự án được xây dựng để giải quyết những bài toán thực tế thuộc nhiều lĩnh vực khác nhau như dịch vụ ăn uống, tài chính, trò chơi điện tử, giao thông và thiết bị thông minh.

@@ -15,6 +15,10 @@ pre: " <b> 4.1. </b> "
 | Location | 26th Floor, Bitexco Financial Tower |
 | Role | Attendee |
 
+## Event Image
+
+![Cloud Architect Competition Final event image](/images/event1.jpg)
+
 ## Participation Summary
 
 In this event, I attended the final round of the Cloud Architect competition, where the two strongest teams competed against each other. The competition was organized around multiple-choice questions related to AWS Cloud, system architecture, security, resource management, and practical deployment scenarios.

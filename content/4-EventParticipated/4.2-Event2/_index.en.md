@@ -15,6 +15,10 @@ pre: " <b> 4.2. </b> "
 | Location | 26th Floor, Bitexco Financial Tower |
 | Role | Attendee |
 
+## Event Image
+
+![FCAJ x Agentic AI Build Week event image](/images/event2.jpg)
+
 ## Activities
 
 During the event, I observed product demonstrations and idea pitches from multiple teams. The projects addressed real-world problems across different domains such as food service, finance, video games, transportation, and smart devices.

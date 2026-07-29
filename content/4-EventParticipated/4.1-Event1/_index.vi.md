@@ -15,6 +15,10 @@ pre: " <b> 4.1. </b> "
 | Địa điểm | Tầng 26, Bitexco Financial Tower |
 | Vai trò | Người tham dự |
 
+## Hình ảnh sự kiện
+
+![Hình ảnh Chung kết cuộc thi Cloud Architect](/images/event1.jpg)
+
 ## Nội dung tham gia
 
 Trong sự kiện, em tham dự vòng chung kết cuộc thi Cloud Architect với sự tranh tài của hai đội có kết quả nổi bật nhất. Phần thi được thiết kế dưới dạng các câu hỏi trắc nghiệm xoay quanh AWS Cloud, kiến trúc hệ thống, bảo mật, quản lý tài nguyên và các tình huống triển khai thực tế.
