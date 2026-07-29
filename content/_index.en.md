@@ -31,7 +31,7 @@ chapter: false
 
 **Project Name:** Cloud-based Student Internship Portal on AWS
 
-![Profile picture](images/KhanhDuy.png)
+![Profile picture](../images/KhanhDuy.png)
 
 ### Report Content
 
