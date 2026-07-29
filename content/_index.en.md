@@ -7,15 +7,15 @@ chapter: false
 
 ### Student Information
 
-&emsp; **Full Name:** Nguyen Van A
+&emsp; **Full Name:** Le Khanh Duy
 
-&emsp; **Phone Number:** 0989888999
+&emsp; **Phone Number:** 0932823422
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** lekhanhduy1503@gmail.com
 
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
+&emsp; **University:** Ho Chi Minh City University of Technology
 
-&emsp; **Major:** Information Technology
+&emsp; **Major:** Computer Science
 
 &emsp; **Class:** AWS082025
 

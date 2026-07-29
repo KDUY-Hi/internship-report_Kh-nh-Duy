@@ -7,15 +7,15 @@ chapter: false
 
 ### Thông tin sinh viên
 
-&emsp; **Họ và tên:** Nguyễn Văn A
+&emsp; **Họ và tên:** Lê Khánh Duy
 
-&emsp; **Số điện thoại:** 0989888999
+&emsp; **Số điện thoại:** 0932823422
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** lekhanhduy1503@gmail.com
 
-&emsp; **Trường:** Đại học Sư phạm Kỹ thuật TP.HCM
+&emsp; **Trường:** Trường Đại học Bách Khoa TP.HCM
 
-&emsp; **Ngành:** Công nghệ thông tin
+&emsp; **Ngành:** Khoa học Máy tính
 
 &emsp; **Lớp:** AWS082025
 
