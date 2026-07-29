@@ -1,12 +1,10 @@
----
+﻿---
 title: "Worklog"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1. </b> "
 ---
-
-# Worklog
 
 This worklog records the learning and implementation process for the **Cloud-based Student Internship Portal on AWS** project. The work is divided into two main parts:
 

@@ -1,12 +1,10 @@
----
+﻿---
 title: "Frontend Application"
 date: 2024-01-01
 weight: 2
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
-
-# Frontend Application
 
 The frontend is built with **ReactJS + Vite** and provides separate interfaces for students, companies, and administrators.
 

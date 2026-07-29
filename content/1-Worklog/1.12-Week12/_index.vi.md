@@ -1,12 +1,10 @@
----
+﻿---
 title: "Tuần 12 - Monitoring và hoàn thiện"
 date: 2024-01-01
 weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
-
-# Tuần 12 - Monitoring và hoàn thiện
 
 ### Mục tiêu
 

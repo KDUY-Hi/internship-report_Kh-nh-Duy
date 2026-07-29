@@ -1,12 +1,10 @@
----
+﻿---
 title: "Backend API"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
-
-# Backend API
 
 Backend của dự án được xây dựng bằng **FastAPI**, chịu trách nhiệm cung cấp API cho frontend, xử lý nghiệp vụ, xác thực người dùng và kết nối database.
 

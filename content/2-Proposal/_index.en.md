@@ -1,12 +1,10 @@
----
+﻿---
 title: "Proposal"
 date: 2024-01-01
 weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
-
-# Proposal: Cloud-based Student Internship Portal on AWS
 
 ## 1. Project Summary
 

@@ -1,12 +1,10 @@
----
+﻿---
 title: "Tuần 2 - Phân tích yêu cầu backend"
 date: 2024-01-01
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-
-# Tuần 2 - Phân tích yêu cầu backend
 
 ### Mục tiêu
 

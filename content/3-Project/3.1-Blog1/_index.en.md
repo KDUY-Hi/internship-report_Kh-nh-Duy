@@ -1,12 +1,10 @@
----
+﻿---
 title: "Backend API"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
-
-# Backend API
 
 The backend is built with **FastAPI**. It provides APIs for the frontend, handles business logic, authenticates users, and connects to the database.
 

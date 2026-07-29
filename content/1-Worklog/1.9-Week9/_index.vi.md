@@ -1,12 +1,10 @@
----
+﻿---
 title: "Tuần 9 - EC2 và deploy backend"
 date: 2024-01-01
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-
-# Tuần 9 - EC2 và deploy backend
 
 ### Mục tiêu
 

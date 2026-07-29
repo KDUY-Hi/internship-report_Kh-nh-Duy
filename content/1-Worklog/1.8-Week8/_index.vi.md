@@ -1,12 +1,10 @@
----
+﻿---
 title: "Tuần 8 - Kiểm thử và sửa lỗi"
 date: 2024-01-01
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-
-# Tuần 8 - Kiểm thử và sửa lỗi
 
 ### Mục tiêu
 

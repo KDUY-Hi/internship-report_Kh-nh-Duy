@@ -1,12 +1,10 @@
----
+﻿---
 title: "Workshop"
 date: 2024-01-01
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
-
-# Workshop: Deploying the Student Internship Portal on AWS
 
 This workshop focuses on the main cloud techniques used to move the project from a local environment to AWS. The content follows the project problem: building an internship portal with backend, frontend, database, private CV storage, and basic logging.
 

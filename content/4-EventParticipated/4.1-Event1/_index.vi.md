@@ -1,12 +1,10 @@
----
+﻿---
 title: "AWS Workshop và định hướng cloud"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
-
-# AWS Workshop và định hướng cloud
 
 ## Nội dung tham gia
 

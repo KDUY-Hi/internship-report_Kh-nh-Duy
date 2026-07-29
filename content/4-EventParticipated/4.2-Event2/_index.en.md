@@ -1,12 +1,10 @@
----
+﻿---
 title: "Demo, Review, and Project Sharing"
 date: 2024-01-01
 weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
-
-# Demo, Review, and Project Sharing
 
 ## Activities
 

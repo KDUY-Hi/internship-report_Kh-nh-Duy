@@ -1,12 +1,10 @@
----
+﻿---
 title : "Testing, Monitoring, and Cleanup"
 date : 2024-01-01
 weight : 6
 chapter : false
 pre : " <b> 5.6. </b> "
 ---
-
-# Testing, Monitoring, and Cleanup
 
 ## 1. Post-deployment Testing
 

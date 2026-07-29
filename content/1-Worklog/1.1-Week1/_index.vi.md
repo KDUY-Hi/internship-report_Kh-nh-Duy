@@ -1,12 +1,10 @@
----
+﻿---
 title: "Tuần 1 - Khởi động dự án"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-
-# Tuần 1 - Khởi động dự án
 
 ### Mục tiêu
 

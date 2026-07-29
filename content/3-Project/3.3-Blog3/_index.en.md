@@ -1,12 +1,10 @@
----
+﻿---
 title: "Business Flow and Testing"
 date: 2024-01-01
 weight: 3
 chapter: false
 pre: " <b> 3.3. </b> "
 ---
-
-# Business Flow and Testing
 
 ## Main Demo Flow
 

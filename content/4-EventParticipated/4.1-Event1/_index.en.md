@@ -1,12 +1,10 @@
----
+﻿---
 title: "AWS Workshop and Cloud Orientation"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
-
-# AWS Workshop and Cloud Orientation
 
 ## Activities
 

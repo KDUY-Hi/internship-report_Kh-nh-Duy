@@ -1,12 +1,10 @@
----
+﻿---
 title : "Cài đặt backend trên EC2"
 date : 2024-01-01
 weight : 2
 chapter : false
 pre : " <b> 5.4.2. </b> "
 ---
-
-# Cài đặt backend trên EC2
 
 ## Cài runtime
 

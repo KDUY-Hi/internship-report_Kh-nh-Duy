@@ -1,12 +1,10 @@
----
+﻿---
 title : "Cấu hình S3 lưu trữ CV"
 date : 2024-01-01
 weight : 3
 chapter : false
 pre : " <b> 5.3. </b> "
 ---
-
-# Cấu hình S3 lưu trữ CV
 
 Amazon S3 được dùng để lưu file CV của sinh viên. Vì CV là dữ liệu cá nhân, bucket cần được cấu hình private.
 

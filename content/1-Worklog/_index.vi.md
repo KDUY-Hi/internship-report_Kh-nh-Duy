@@ -1,12 +1,10 @@
----
+﻿---
 title: "Nhật ký công việc"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1. </b> "
 ---
-
-# Nhật ký công việc
 
 Phần worklog ghi nhận quá trình học tập và triển khai dự án **Cloud-based Student Internship Portal on AWS**. Nội dung được chia thành hai nhóm chính:
 

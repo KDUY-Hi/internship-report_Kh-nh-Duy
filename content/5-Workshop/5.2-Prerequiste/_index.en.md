@@ -1,12 +1,10 @@
----
+﻿---
 title : "Preparing AWS Environment"
 date : 2024-01-01
 weight : 2
 chapter : false
 pre : " <b> 5.2. </b> "
 ---
-
-# Preparing the AWS Environment
 
 ## 1. Select Region
 

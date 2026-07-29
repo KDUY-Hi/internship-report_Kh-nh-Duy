@@ -1,12 +1,10 @@
----
+﻿---
 title: "Demo, review và chia sẻ kết quả"
 date: 2024-01-01
 weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
-
-# Demo, review và chia sẻ kết quả dự án
 
 ## Nội dung tham gia
 

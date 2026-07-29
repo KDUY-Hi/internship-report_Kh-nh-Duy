@@ -183,6 +183,26 @@ h5 {
   font-family: "Amazon Ember", "Montserrat", sans-serif;
 }
 
+#body h1 {
+  font-size: clamp(2rem, 4.2vw, 3.4rem) !important;
+  line-height: 1.18 !important;
+  letter-spacing: 0 !important;
+  overflow-wrap: anywhere;
+  text-align: left;
+  margin-bottom: 1.5rem !important;
+}
+
+#body-inner h2,
+#body-inner h3 {
+  line-height: 1.25 !important;
+  letter-spacing: 0 !important;
+}
+
+#chapter h1 {
+  font-size: clamp(2rem, 4.2vw, 3.4rem) !important;
+  line-height: 1.18 !important;
+}
+
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default,

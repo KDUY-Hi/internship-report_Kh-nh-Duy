@@ -1,12 +1,10 @@
----
+﻿---
 title: "Project"
 date: 2024-01-01
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
-
-# Project: Cloud-based Student Internship Portal
 
 Đây là phần mô tả dự án thực tiễn được nhóm xây dựng để ứng dụng kiến thức backend, frontend và AWS vào một bài toán gần với nhu cầu thực tế của sinh viên.
 

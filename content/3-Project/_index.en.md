@@ -1,12 +1,10 @@
----
+﻿---
 title: "Project"
 date: 2024-01-01
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
-
-# Project: Cloud-based Student Internship Portal
 
 This section describes the practical project built by the team to apply backend, frontend, and AWS knowledge to a real-world student internship management problem.
 

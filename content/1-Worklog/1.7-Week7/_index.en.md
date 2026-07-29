@@ -1,12 +1,10 @@
----
+﻿---
 title: "Week 7 - React Frontend"
 date: 2024-01-01
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-
-# Week 7 - React Frontend
 
 ### Goals
 

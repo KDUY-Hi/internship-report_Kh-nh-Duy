@@ -1,12 +1,10 @@
----
+﻿---
 title : "Chuẩn bị EC2 và RDS"
 date : 2024-01-01
 weight : 1
 chapter : false
 pre : " <b> 5.4.1. </b> "
 ---
-
-# Chuẩn bị EC2 và RDS
 
 ## RDS PostgreSQL
 

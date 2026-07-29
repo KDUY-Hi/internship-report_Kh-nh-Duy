@@ -1,12 +1,10 @@
----
+﻿---
 title: "Tuần 7 - Frontend React"
 date: 2024-01-01
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-
-# Tuần 7 - Frontend React
 
 ### Mục tiêu
 
