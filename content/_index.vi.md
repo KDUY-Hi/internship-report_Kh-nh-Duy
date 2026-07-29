@@ -27,11 +27,11 @@ chapter: false
 
 **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
 
-**Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
+**Thời gian thực tập:** Từ ngày 01/06/2026 đến ngày 15/08/2026
 
 **Tên dự án:** Cloud-based Student Internship Portal on AWS
 
-![Ảnh đại diện](/images/KhanhDuy.png)
+![Ảnh đại diện](images/KhanhDuy.png)
 
 ### Nội dung báo cáo
 

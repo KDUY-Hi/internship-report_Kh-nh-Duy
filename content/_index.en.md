@@ -27,11 +27,11 @@ chapter: false
 
 **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 
-**Internship Duration:** From 12/08/2025 to 12/11/2025
+**Internship Duration:** From 01/06/2026 to 15/08/2026
 
 **Project Name:** Cloud-based Student Internship Portal on AWS
 
-![Profile picture](/images/KhanhDuy.png)
+![Profile picture](images/KhanhDuy.png)
 
 ### Report Content
 
