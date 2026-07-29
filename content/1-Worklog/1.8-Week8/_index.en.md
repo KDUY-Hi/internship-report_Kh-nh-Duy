@@ -13,12 +13,12 @@ pre: " <b> 1.8. </b> "
 
 ### Work Completed
 
-| Task | Result |
-| --- | --- |
-| Test company -> admin -> student flow | Internship posts must be approved before students can apply |
-| Test CV upload | Validate file size and CV access permissions |
-| Test authorization | Block incorrect role access |
-| Test notifications | Create notifications when statuses change |
+| Day | Task | Start Date | Completion Date | Reference |
+| --- | --- | --- | --- | --- |
+| Day 1 | Test company -> admin -> student flow<br>Internship posts must be approved before students can apply | 2025-09-29 | 2025-09-29 | Pytest Docs / Project tests |
+| Day 2 | Test CV upload<br>Validate file size and CV access permissions | 2025-09-30 | 2025-09-30 | Pytest Docs / Project tests |
+| Day 3 | Test authorization<br>Block incorrect role access | 2025-10-01 | 2025-10-01 | Pytest Docs / Project tests |
+| Day 4 | Test notifications<br>Create notifications when statuses change | 2025-10-02 | 2025-10-02 | Pytest Docs / Project tests |
 
 ### Results
 

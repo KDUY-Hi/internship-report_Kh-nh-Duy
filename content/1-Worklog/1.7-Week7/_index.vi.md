@@ -13,12 +13,12 @@ pre: " <b> 1.7. </b> "
 
 ### Công việc đã thực hiện
 
-| Nội dung | Kết quả |
-| --- | --- |
-| Thiết lập React + Vite | Tạo frontend app và script build/dev |
-| Tạo API client | Quản lý request, token và lỗi phiên đăng nhập |
-| Xây dựng trang student | Jobs, companies, applications, profile, forum |
-| Xây dựng trang company/admin | Quản lý bài đăng, ứng viên, user, skills |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Thiết lập React + Vite<br>Tạo frontend app và script build/dev | 22/09/2025 | 22/09/2025 | React + Vite Docs / Project README |
+| 3 | Tạo API client<br>Quản lý request, token và lỗi phiên đăng nhập | 23/09/2025 | 23/09/2025 | React + Vite Docs / Project README |
+| 4 | Xây dựng trang student<br>Jobs, companies, applications, profile, forum | 24/09/2025 | 24/09/2025 | React + Vite Docs / Project README |
+| 5 | Xây dựng trang company/admin<br>Quản lý bài đăng, ứng viên, user, skills | 25/09/2025 | 25/09/2025 | React + Vite Docs / Project README |
 
 ### Kết quả đạt được
 

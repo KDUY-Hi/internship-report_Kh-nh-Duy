@@ -13,12 +13,12 @@ pre: " <b> 1.8. </b> "
 
 ### Công việc đã thực hiện
 
-| Nội dung | Kết quả |
-| --- | --- |
-| Test luồng company -> admin -> student | Đảm bảo bài đăng phải được duyệt trước khi student apply |
-| Test upload CV | Kiểm tra kích thước file và quyền xem CV |
-| Test phân quyền | Chặn truy cập sai role |
-| Test notification | Tạo thông báo khi trạng thái thay đổi |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Test luồng company -> admin -> student<br>Đảm bảo bài đăng phải được duyệt trước khi student apply | 29/09/2025 | 29/09/2025 | Pytest Docs / Project tests |
+| 3 | Test upload CV<br>Kiểm tra kích thước file và quyền xem CV | 30/09/2025 | 30/09/2025 | Pytest Docs / Project tests |
+| 4 | Test phân quyền<br>Chặn truy cập sai role | 01/10/2025 | 01/10/2025 | Pytest Docs / Project tests |
+| 5 | Test notification<br>Tạo thông báo khi trạng thái thay đổi | 02/10/2025 | 02/10/2025 | Pytest Docs / Project tests |
 
 ### Kết quả đạt được
 

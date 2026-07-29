@@ -14,12 +14,12 @@ pre: " <b> 1.11. </b> "
 
 ### Công việc đã thực hiện
 
-| Nội dung | Kết quả |
-| --- | --- |
-| Cấu hình `VITE_API_URL` | Frontend gọi đúng backend production |
-| Build frontend | Tạo thư mục `dist` bằng Vite |
-| Upload lên S3 | Public static assets qua S3/CloudFront |
-| Cấu hình CORS backend | Chỉ cho phép frontend domain hợp lệ |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Cấu hình `VITE_API_URL`<br>Frontend gọi đúng backend production | 20/10/2025 | 20/10/2025 | Amazon S3 Hosting / CloudFront Docs |
+| 3 | Build frontend<br>Tạo thư mục `dist` bằng Vite | 21/10/2025 | 21/10/2025 | Amazon S3 Hosting / CloudFront Docs |
+| 4 | Upload lên S3<br>Public static assets qua S3/CloudFront | 22/10/2025 | 22/10/2025 | Amazon S3 Hosting / CloudFront Docs |
+| 5 | Cấu hình CORS backend<br>Chỉ cho phép frontend domain hợp lệ | 23/10/2025 | 23/10/2025 | Amazon S3 Hosting / CloudFront Docs |
 
 ### Kết quả đạt được
 

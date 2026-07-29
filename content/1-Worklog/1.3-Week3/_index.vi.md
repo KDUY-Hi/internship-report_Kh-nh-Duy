@@ -14,12 +14,12 @@ pre: " <b> 1.3. </b> "
 
 ### Công việc đã thực hiện
 
-| Nội dung | Kết quả |
-| --- | --- |
-| Xây dựng bảng `users` | Lưu tài khoản, email, password hash, role |
-| Cài đặt JWT authentication | Bảo vệ API bằng access token và refresh token |
-| Tạo model hồ sơ | Student profile và company profile |
-| Thiết lập Alembic | Quản lý thay đổi schema |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Xây dựng bảng `users`<br>Lưu tài khoản, email, password hash, role | 25/08/2025 | 25/08/2025 | FastAPI Security / Alembic Docs |
+| 3 | Cài đặt JWT authentication<br>Bảo vệ API bằng access token và refresh token | 26/08/2025 | 26/08/2025 | FastAPI Security / Alembic Docs |
+| 4 | Tạo model hồ sơ<br>Student profile và company profile | 27/08/2025 | 27/08/2025 | FastAPI Security / Alembic Docs |
+| 5 | Thiết lập Alembic<br>Quản lý thay đổi schema | 28/08/2025 | 28/08/2025 | FastAPI Security / Alembic Docs |
 
 ### Kết quả đạt được
 

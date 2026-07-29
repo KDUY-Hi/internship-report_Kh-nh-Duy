@@ -13,12 +13,12 @@ pre: " <b> 1.4. </b> "
 
 ### Công việc đã thực hiện
 
-| Nội dung | Kết quả |
-| --- | --- |
-| API hồ sơ sinh viên | Tạo, xem, cập nhật profile |
-| API hồ sơ công ty | Tạo, xem, cập nhật thông tin công ty |
-| API bài đăng thực tập | Company tạo và quản lý bài đăng |
-| API ứng tuyển | Student apply vào internship đã được duyệt |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | API hồ sơ sinh viên<br>Tạo, xem, cập nhật profile | 01/09/2025 | 01/09/2025 | FastAPI Docs / Project README |
+| 3 | API hồ sơ công ty<br>Tạo, xem, cập nhật thông tin công ty | 02/09/2025 | 02/09/2025 | FastAPI Docs / Project README |
+| 4 | API bài đăng thực tập<br>Company tạo và quản lý bài đăng | 03/09/2025 | 03/09/2025 | FastAPI Docs / Project README |
+| 5 | API ứng tuyển<br>Student apply vào internship đã được duyệt | 04/09/2025 | 04/09/2025 | FastAPI Docs / Project README |
 
 ### Kết quả đạt được
 

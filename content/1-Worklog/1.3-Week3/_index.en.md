@@ -14,12 +14,12 @@ pre: " <b> 1.3. </b> "
 
 ### Work Completed
 
-| Task | Result |
-| --- | --- |
-| Build the `users` table | Stored account information, email, password hash, and role |
-| Implement JWT authentication | Protected APIs with access and refresh tokens |
-| Create profile models | Student profile and company profile |
-| Set up Alembic | Managed schema changes |
+| Day | Task | Start Date | Completion Date | Reference |
+| --- | --- | --- | --- | --- |
+| Day 1 | Build the `users` table<br>Stored account information, email, password hash, and role | 2025-08-25 | 2025-08-25 | FastAPI Security / Alembic Docs |
+| Day 2 | Implement JWT authentication<br>Protected APIs with access and refresh tokens | 2025-08-26 | 2025-08-26 | FastAPI Security / Alembic Docs |
+| Day 3 | Create profile models<br>Student profile and company profile | 2025-08-27 | 2025-08-27 | FastAPI Security / Alembic Docs |
+| Day 4 | Set up Alembic<br>Managed schema changes | 2025-08-28 | 2025-08-28 | FastAPI Security / Alembic Docs |
 
 ### Results
 

@@ -13,12 +13,12 @@ pre: " <b> 1.4. </b> "
 
 ### Work Completed
 
-| Task | Result |
-| --- | --- |
-| Student profile APIs | Create, view, and update profile |
-| Company profile APIs | Create, view, and update company information |
-| Internship post APIs | Company creates and manages internship posts |
-| Application APIs | Student applies to approved internship posts |
+| Day | Task | Start Date | Completion Date | Reference |
+| --- | --- | --- | --- | --- |
+| Day 1 | Student profile APIs<br>Create, view, and update profile | 2025-09-01 | 2025-09-01 | FastAPI Docs / Project README |
+| Day 2 | Company profile APIs<br>Create, view, and update company information | 2025-09-02 | 2025-09-02 | FastAPI Docs / Project README |
+| Day 3 | Internship post APIs<br>Company creates and manages internship posts | 2025-09-03 | 2025-09-03 | FastAPI Docs / Project README |
+| Day 4 | Application APIs<br>Student applies to approved internship posts | 2025-09-04 | 2025-09-04 | FastAPI Docs / Project README |
 
 ### Results
 

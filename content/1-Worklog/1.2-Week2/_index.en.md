@@ -14,12 +14,12 @@ pre: " <b> 1.2. </b> "
 
 ### Work Completed
 
-| Task | Result |
-| --- | --- |
-| Break down features by role | Student, company, and admin |
-| Design the initial database | Users, profiles, companies, internship posts, applications |
-| Select backend technologies | FastAPI, SQLAlchemy, Pydantic, Alembic |
-| Define core endpoints | Auth, internships, student, company, admin |
+| Day | Task | Start Date | Completion Date | Reference |
+| --- | --- | --- | --- | --- |
+| Day 1 | Break down features by role<br>Student, company, and admin | 2025-08-18 | 2025-08-18 | FastAPI Docs / SQLAlchemy Docs |
+| Day 2 | Design the initial database<br>Users, profiles, companies, internship posts, applications | 2025-08-19 | 2025-08-19 | FastAPI Docs / SQLAlchemy Docs |
+| Day 3 | Select backend technologies<br>FastAPI, SQLAlchemy, Pydantic, Alembic | 2025-08-20 | 2025-08-20 | FastAPI Docs / SQLAlchemy Docs |
+| Day 4 | Define core endpoints<br>Auth, internships, student, company, admin | 2025-08-21 | 2025-08-21 | FastAPI Docs / SQLAlchemy Docs |
 
 ### Results
 

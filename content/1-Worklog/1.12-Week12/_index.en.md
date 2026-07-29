@@ -14,12 +14,12 @@ pre: " <b> 1.12. </b> "
 
 ### Work Completed
 
-| Task | Result |
-| --- | --- |
-| Configure backend logs | Send stdout/stderr to CloudWatch Logs |
-| Check health endpoint | Ensure backend remains active after deployment |
-| Run final demo flow | Company posts, admin approves, student applies, company updates status |
-| Prepare documentation | Write proposal, project, workshop, and self-evaluation sections |
+| Day | Task | Start Date | Completion Date | Reference |
+| --- | --- | --- | --- | --- |
+| Day 1 | Configure backend logs<br>Send stdout/stderr to CloudWatch Logs | 2025-10-27 | 2025-10-27 | CloudWatch Logs Docs / Project checklist |
+| Day 2 | Check health endpoint<br>Ensure backend remains active after deployment | 2025-10-28 | 2025-10-28 | CloudWatch Logs Docs / Project checklist |
+| Day 3 | Run final demo flow<br>Company posts, admin approves, student applies, company updates status | 2025-10-29 | 2025-10-29 | CloudWatch Logs Docs / Project checklist |
+| Day 4 | Prepare documentation<br>Write proposal, project, workshop, and self-evaluation sections | 2025-10-30 | 2025-10-30 | CloudWatch Logs Docs / Project checklist |
 
 ### Results
 

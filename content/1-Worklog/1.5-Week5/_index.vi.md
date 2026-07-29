@@ -13,12 +13,12 @@ pre: " <b> 1.5. </b> "
 
 ### Công việc đã thực hiện
 
-| Nội dung | Kết quả |
-| --- | --- |
-| Admin quản lý người dùng | Xem danh sách, khóa/mở khóa tài khoản |
-| Admin duyệt bài đăng | Approve, reject, close hoặc delete internship post |
-| Quản lý kỹ năng | Thêm kỹ năng dùng cho lọc và nhập liệu |
-| Quản lý job positions | Chuẩn hóa vị trí tuyển dụng |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Admin quản lý người dùng<br>Xem danh sách, khóa/mở khóa tài khoản | 08/09/2025 | 08/09/2025 | Project README / Admin API |
+| 3 | Admin duyệt bài đăng<br>Approve, reject, close hoặc delete internship post | 09/09/2025 | 09/09/2025 | Project README / Admin API |
+| 4 | Quản lý kỹ năng<br>Thêm kỹ năng dùng cho lọc và nhập liệu | 10/09/2025 | 10/09/2025 | Project README / Admin API |
+| 5 | Quản lý job positions<br>Chuẩn hóa vị trí tuyển dụng | 11/09/2025 | 11/09/2025 | Project README / Admin API |
 
 ### Kết quả đạt được
 

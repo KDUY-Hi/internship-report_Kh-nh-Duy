@@ -13,12 +13,12 @@ pre: " <b> 1.10. </b> "
 
 ### Công việc đã thực hiện
 
-| Nội dung | Kết quả |
-| --- | --- |
-| Tạo RDS PostgreSQL | Database `internship_portal` cho production |
-| Cấu hình security group | Chỉ cho EC2 backend truy cập port 5432 |
-| Cập nhật `DATABASE_URL` | Backend kết nối RDS thay vì SQLite |
-| Chạy Alembic migration | Tạo schema production |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Tạo RDS PostgreSQL<br>Database `internship_portal` cho production | 13/10/2025 | 13/10/2025 | Amazon RDS Docs / Alembic Docs |
+| 3 | Cấu hình security group<br>Chỉ cho EC2 backend truy cập port 5432 | 14/10/2025 | 14/10/2025 | Amazon RDS Docs / Alembic Docs |
+| 4 | Cập nhật `DATABASE_URL`<br>Backend kết nối RDS thay vì SQLite | 15/10/2025 | 15/10/2025 | Amazon RDS Docs / Alembic Docs |
+| 5 | Chạy Alembic migration<br>Tạo schema production | 16/10/2025 | 16/10/2025 | Amazon RDS Docs / Alembic Docs |
 
 ### Kết quả đạt được
 

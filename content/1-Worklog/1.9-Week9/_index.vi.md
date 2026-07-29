@@ -13,12 +13,12 @@ pre: " <b> 1.9. </b> "
 
 ### Công việc đã thực hiện
 
-| Nội dung | Kết quả |
-| --- | --- |
-| Tạo EC2 instance | Chuẩn bị môi trường Linux cho backend |
-| Cài Python, venv, dependencies | Backend có thể chạy bằng Uvicorn |
-| Mở port kiểm thử | Cho phép truy cập API qua port 8000 tạm thời |
-| Kiểm tra health endpoint | `/health` trả trạng thái service |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Tạo EC2 instance<br>Chuẩn bị môi trường Linux cho backend | 06/10/2025 | 06/10/2025 | Amazon EC2 Docs / IAM Docs |
+| 3 | Cài Python, venv, dependencies<br>Backend có thể chạy bằng Uvicorn | 07/10/2025 | 07/10/2025 | Amazon EC2 Docs / IAM Docs |
+| 4 | Mở port kiểm thử<br>Cho phép truy cập API qua port 8000 tạm thời | 08/10/2025 | 08/10/2025 | Amazon EC2 Docs / IAM Docs |
+| 5 | Kiểm tra health endpoint<br>`/health` trả trạng thái service | 09/10/2025 | 09/10/2025 | Amazon EC2 Docs / IAM Docs |
 
 ### Kết quả đạt được
 

@@ -14,12 +14,12 @@ pre: " <b> 1.2. </b> "
 
 ### Công việc đã thực hiện
 
-| Nội dung | Kết quả |
-| --- | --- |
-| Phân rã chức năng theo role | Student, company, admin |
-| Thiết kế database ban đầu | Users, profiles, companies, internship posts, applications |
-| Chọn công nghệ backend | FastAPI, SQLAlchemy, Pydantic, Alembic |
-| Xác định endpoint chính | Auth, internships, student, company, admin |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Phân rã chức năng theo role<br>Student, company, admin | 18/08/2025 | 18/08/2025 | FastAPI Docs / SQLAlchemy Docs |
+| 3 | Thiết kế database ban đầu<br>Users, profiles, companies, internship posts, applications | 19/08/2025 | 19/08/2025 | FastAPI Docs / SQLAlchemy Docs |
+| 4 | Chọn công nghệ backend<br>FastAPI, SQLAlchemy, Pydantic, Alembic | 20/08/2025 | 20/08/2025 | FastAPI Docs / SQLAlchemy Docs |
+| 5 | Xác định endpoint chính<br>Auth, internships, student, company, admin | 21/08/2025 | 21/08/2025 | FastAPI Docs / SQLAlchemy Docs |
 
 ### Kết quả đạt được
 

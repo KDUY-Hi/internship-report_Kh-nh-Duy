@@ -13,12 +13,12 @@ pre: " <b> 1.5. </b> "
 
 ### Work Completed
 
-| Task | Result |
-| --- | --- |
-| Admin user management | View users and lock/unlock accounts |
-| Admin post approval | Approve, reject, close, or delete internship posts |
-| Skill management | Add skills for filtering and input support |
-| Job-position management | Standardize recruitment positions |
+| Day | Task | Start Date | Completion Date | Reference |
+| --- | --- | --- | --- | --- |
+| Day 1 | Admin user management<br>View users and lock/unlock accounts | 2025-09-08 | 2025-09-08 | Project README / Admin API |
+| Day 2 | Admin post approval<br>Approve, reject, close, or delete internship posts | 2025-09-09 | 2025-09-09 | Project README / Admin API |
+| Day 3 | Skill management<br>Add skills for filtering and input support | 2025-09-10 | 2025-09-10 | Project README / Admin API |
+| Day 4 | Job-position management<br>Standardize recruitment positions | 2025-09-11 | 2025-09-11 | Project README / Admin API |
 
 ### Results
 

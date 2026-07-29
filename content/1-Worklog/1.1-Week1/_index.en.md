@@ -14,12 +14,12 @@ pre: " <b> 1.1. </b> "
 
 ### Work Completed
 
-| Task | Result |
-| --- | --- |
-| Analyze the needs of students, companies, and admins | Defined three main user groups |
-| Study web application architecture on AWS | Selected React frontend, FastAPI backend, and PostgreSQL database |
-| Initialize the project repository | Created `backend`, `frontend`, and `deploy` folders |
-| Review basic AWS materials | Understood the roles of EC2, S3, RDS, IAM, and CloudWatch |
+| Day | Task | Start Date | Completion Date | Reference |
+| --- | --- | --- | --- | --- |
+| Day 1 | Analyze the needs of students, companies, and admins<br>Defined three main user groups | 2025-08-11 | 2025-08-11 | AWS Study Group / AWS Docs |
+| Day 2 | Study web application architecture on AWS<br>Selected React frontend, FastAPI backend, and PostgreSQL database | 2025-08-12 | 2025-08-12 | AWS Study Group / AWS Docs |
+| Day 3 | Initialize the project repository<br>Created `backend`, `frontend`, and `deploy` folders | 2025-08-13 | 2025-08-13 | AWS Study Group / AWS Docs |
+| Day 4 | Review basic AWS materials<br>Understood the roles of EC2, S3, RDS, IAM, and CloudWatch | 2025-08-14 | 2025-08-14 | AWS Study Group / AWS Docs |
 
 ### Results
 

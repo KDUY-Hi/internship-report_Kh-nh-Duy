@@ -203,6 +203,19 @@ h5 {
   line-height: 1.18 !important;
 }
 
+#body-inner table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+#body-inner table th,
+#body-inner table td {
+  vertical-align: top;
+  line-height: 1.45;
+}
+
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default,

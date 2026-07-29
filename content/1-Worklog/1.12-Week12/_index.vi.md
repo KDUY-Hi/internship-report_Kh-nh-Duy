@@ -14,12 +14,12 @@ pre: " <b> 1.12. </b> "
 
 ### Công việc đã thực hiện
 
-| Nội dung | Kết quả |
-| --- | --- |
-| Cấu hình log backend | Gửi stdout/stderr lên CloudWatch Logs |
-| Kiểm tra health endpoint | Đảm bảo backend còn hoạt động sau deploy |
-| Demo final flow | Company đăng bài, admin duyệt, student apply, company cập nhật trạng thái |
-| Tổng hợp tài liệu | Viết proposal, project, workshop và self-evaluation |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Cấu hình log backend<br>Gửi stdout/stderr lên CloudWatch Logs | 27/10/2025 | 27/10/2025 | CloudWatch Logs Docs / Project checklist |
+| 3 | Kiểm tra health endpoint<br>Đảm bảo backend còn hoạt động sau deploy | 28/10/2025 | 28/10/2025 | CloudWatch Logs Docs / Project checklist |
+| 4 | Demo final flow<br>Company đăng bài, admin duyệt, student apply, company cập nhật trạng thái | 29/10/2025 | 29/10/2025 | CloudWatch Logs Docs / Project checklist |
+| 5 | Tổng hợp tài liệu<br>Viết proposal, project, workshop và self-evaluation | 30/10/2025 | 30/10/2025 | CloudWatch Logs Docs / Project checklist |
 
 ### Kết quả đạt được
 

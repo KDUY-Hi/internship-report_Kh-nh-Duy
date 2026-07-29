@@ -14,12 +14,12 @@ pre: " <b> 1.1. </b> "
 
 ### Công việc đã thực hiện
 
-| Nội dung | Kết quả |
-| --- | --- |
-| Phân tích nhu cầu sinh viên, doanh nghiệp và admin | Xác định 3 nhóm người dùng chính |
-| Tìm hiểu kiến trúc web app trên AWS | Chọn hướng frontend React, backend FastAPI, database PostgreSQL |
-| Khởi tạo repo dự án | Tạo cấu trúc `backend`, `frontend`, `deploy` |
-| Đọc tài liệu AWS cơ bản | Nắm vai trò của EC2, S3, RDS, IAM và CloudWatch |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Phân tích nhu cầu sinh viên, doanh nghiệp và admin<br>Xác định 3 nhóm người dùng chính | 11/08/2025 | 11/08/2025 | AWS Study Group / AWS Docs |
+| 3 | Tìm hiểu kiến trúc web app trên AWS<br>Chọn hướng frontend React, backend FastAPI, database PostgreSQL | 12/08/2025 | 12/08/2025 | AWS Study Group / AWS Docs |
+| 4 | Khởi tạo repo dự án<br>Tạo cấu trúc `backend`, `frontend`, `deploy` | 13/08/2025 | 13/08/2025 | AWS Study Group / AWS Docs |
+| 5 | Đọc tài liệu AWS cơ bản<br>Nắm vai trò của EC2, S3, RDS, IAM và CloudWatch | 14/08/2025 | 14/08/2025 | AWS Study Group / AWS Docs |
 
 ### Kết quả đạt được
 

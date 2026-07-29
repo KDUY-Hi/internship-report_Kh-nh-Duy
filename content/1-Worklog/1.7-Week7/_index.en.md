@@ -13,12 +13,12 @@ pre: " <b> 1.7. </b> "
 
 ### Work Completed
 
-| Task | Result |
-| --- | --- |
-| Set up React + Vite | Created frontend app and dev/build scripts |
-| Create API client | Managed requests, tokens, and session errors |
-| Build student pages | Jobs, companies, applications, profile, forum |
-| Build company/admin pages | Posts, applicants, users, skills, and management screens |
+| Day | Task | Start Date | Completion Date | Reference |
+| --- | --- | --- | --- | --- |
+| Day 1 | Set up React + Vite<br>Created frontend app and dev/build scripts | 2025-09-22 | 2025-09-22 | React + Vite Docs / Project README |
+| Day 2 | Create API client<br>Managed requests, tokens, and session errors | 2025-09-23 | 2025-09-23 | React + Vite Docs / Project README |
+| Day 3 | Build student pages<br>Jobs, companies, applications, profile, forum | 2025-09-24 | 2025-09-24 | React + Vite Docs / Project README |
+| Day 4 | Build company/admin pages<br>Posts, applicants, users, skills, and management screens | 2025-09-25 | 2025-09-25 | React + Vite Docs / Project README |
 
 ### Results
 

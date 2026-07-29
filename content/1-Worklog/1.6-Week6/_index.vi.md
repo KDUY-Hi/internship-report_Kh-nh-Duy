@@ -14,12 +14,12 @@ pre: " <b> 1.6. </b> "
 
 ### Công việc đã thực hiện
 
-| Nội dung | Kết quả |
-| --- | --- |
-| Tìm hiểu S3 private bucket | Không public CV trực tiếp |
-| Thiết kế storage reference | Database chỉ lưu object key |
-| Upload CV qua backend | Backend kiểm tra file và lưu lên S3 |
-| Presigned URL | Company xem CV qua URL tạm thời |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Tìm hiểu S3 private bucket<br>Không public CV trực tiếp | 15/09/2025 | 15/09/2025 | Amazon S3 Docs / Boto3 Docs |
+| 3 | Thiết kế storage reference<br>Database chỉ lưu object key | 16/09/2025 | 16/09/2025 | Amazon S3 Docs / Boto3 Docs |
+| 4 | Upload CV qua backend<br>Backend kiểm tra file và lưu lên S3 | 17/09/2025 | 17/09/2025 | Amazon S3 Docs / Boto3 Docs |
+| 5 | Presigned URL<br>Company xem CV qua URL tạm thời | 18/09/2025 | 18/09/2025 | Amazon S3 Docs / Boto3 Docs |
 
 ### Kết quả đạt được
 
