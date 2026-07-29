@@ -10,7 +10,7 @@ During the internship and project implementation, I participated in learning act
 
 ### Content
 
-1. [AWS Workshop and Cloud Orientation](4.1-Event1/)
+1. [Cloud Architect Competition Final](4.1-Event1/)
 2. [FCAJ x Agentic AI Build Week: Show Up. Build. Pitch. WIN!](4.2-Event2/)
 
 These activities helped the team strengthen cloud architecture knowledge, understand how to choose suitable AWS services for the problem, and improve the ability to present technical solutions.
