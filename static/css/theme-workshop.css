@@ -188,8 +188,16 @@ h5 {
   line-height: 1.18 !important;
   letter-spacing: 0 !important;
   overflow-wrap: anywhere;
-  text-align: left;
+  text-align: center;
   margin-bottom: 1.5rem !important;
+}
+
+#body-inner {
+  max-width: 1228px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 #body-inner h2,
@@ -214,6 +222,17 @@ h5 {
 #body-inner table td {
   vertical-align: top;
   line-height: 1.45;
+}
+
+@media (max-width: 768px) {
+  #body-inner {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  #body h1 {
+    text-align: left;
+  }
 }
 
 .ui-state-default,
