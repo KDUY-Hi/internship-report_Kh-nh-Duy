@@ -11,6 +11,6 @@ Trong quá trình thực tập và thực hiện dự án, em tham gia các ho�
 ### Nội dung
 
 1. [AWS Workshop và định hướng cloud](4.1-Event1/)
-2. [Demo, review và chia sẻ kết quả dự án](4.2-Event2/)
+2. [FCAJ x Agentic AI Build Week: Show Up. Build. Pitch. WIN!](4.2-Event2/)
 
 Các hoạt động này giúp nhóm củng cố kiến thức về kiến trúc cloud, hiểu rõ hơn cách chọn dịch vụ AWS phù hợp với bài toán và cải thiện khả năng trình bày giải pháp kỹ thuật.
