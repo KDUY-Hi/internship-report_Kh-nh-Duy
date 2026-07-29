@@ -184,12 +184,12 @@ h5 {
 }
 
 #body h1 {
-  font-size: clamp(2rem, 4.2vw, 3.4rem) !important;
+  font-size: clamp(2.75rem, 5.5vw, 4.75rem) !important;
   line-height: 1.18 !important;
   letter-spacing: 0 !important;
   overflow-wrap: anywhere;
   text-align: center;
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 2.25rem !important;
 }
 
 #body-inner {
