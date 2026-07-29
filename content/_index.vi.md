@@ -31,7 +31,7 @@ chapter: false
 
 **Tên dự án:** Cloud-based Student Internship Portal on AWS
 
-![Ảnh đại diện](/images/avatar.png)
+![Ảnh đại diện](/images/KhanhDuy.png)
 
 ### Nội dung báo cáo
 
