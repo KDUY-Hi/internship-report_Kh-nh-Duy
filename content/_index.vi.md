@@ -7,23 +7,29 @@ chapter: false
 
 ### Thông tin sinh viên
 
-&emsp; **Họ và tên:** Lê Khánh Duy
+{{% notice warning %}}
+⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
+{{% /notice %}}
 
-&emsp; **Số điện thoại:** 0932823422
+**Họ và tên:** Lê Khánh Duy
 
-&emsp; **Email:** lekhanhduy1503@gmail.com
+**Số điện thoại:** 0932823422
 
-&emsp; **Trường:** Trường Đại học Bách Khoa TP.HCM
+**Email:** [lekhanhduy1503@gmail.com](mailto:lekhanhduy1503@gmail.com)
 
-&emsp; **Ngành:** Khoa học Máy tính
+**Trường:** Trường Đại học Bách Khoa TP.HCM
 
-&emsp; **Lớp:** AWS082025
+**Ngành:** Khoa học Máy tính
 
-&emsp; **Đơn vị thực tập:** Amazon Web Services Viet Nam Company Limited
+**Lớp:** AWS082025
 
-&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
+**Công ty thực tập:** Amazon Web Services Viet Nam Company Limited
 
-&emsp; **Tên dự án:** Cloud-based Student Internship Portal on AWS
+**Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
+
+**Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
+
+**Tên dự án:** Cloud-based Student Internship Portal on AWS
 
 ![Ảnh đại diện](/images/avatar.png)
 

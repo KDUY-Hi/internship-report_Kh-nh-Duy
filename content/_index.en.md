@@ -7,23 +7,29 @@ chapter: false
 
 ### Student Information
 
-&emsp; **Full Name:** Le Khanh Duy
+{{% notice warning %}}
+⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
+{{% /notice %}}
 
-&emsp; **Phone Number:** 0932823422
+**Full Name:** Le Khanh Duy
 
-&emsp; **Email:** lekhanhduy1503@gmail.com
+**Phone Number:** 0932823422
 
-&emsp; **University:** Ho Chi Minh City University of Technology
+**Email:** [lekhanhduy1503@gmail.com](mailto:lekhanhduy1503@gmail.com)
 
-&emsp; **Major:** Computer Science
+**University:** Ho Chi Minh City University of Technology
 
-&emsp; **Class:** AWS082025
+**Major:** Computer Science
 
-&emsp; **Internship Organization:** Amazon Web Services Viet Nam Company Limited
+**Class:** AWS082025
 
-&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
+**Internship Company:** Amazon Web Services Viet Nam Company Limited
 
-&emsp; **Project Name:** Cloud-based Student Internship Portal on AWS
+**Internship Position:** Workforce Bootcamp - First Cloud AI Journey
+
+**Internship Duration:** From 12/08/2025 to 12/11/2025
+
+**Project Name:** Cloud-based Student Internship Portal on AWS
 
 ![Profile picture](/images/avatar.png)
 
