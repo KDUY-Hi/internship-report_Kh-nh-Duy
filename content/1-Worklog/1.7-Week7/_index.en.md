@@ -1,6 +1,6 @@
-﻿---
-title: "Week 7 - React Frontend"
-date: 2024-01-01
+---
+title: "Week 7 - React Frontend and RDS PostgreSQL"
+date: 2026-07-20
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
@@ -8,18 +8,19 @@ pre: " <b> 1.7. </b> "
 
 ### Goals
 
-- Build interfaces for the three user groups.
+- Complete React interfaces for all user groups.
 - Connect the frontend with backend APIs.
+- Prepare the production database with Amazon RDS PostgreSQL.
 
 ### Work Completed
 
 | Day | Task | Start Date | Completion Date | Reference |
 | --- | --- | --- | --- | --- |
-| Day 1 | Set up React + Vite<br>Created frontend app and dev/build scripts | 2025-09-22 | 2025-09-22 | React + Vite Docs / Project README |
-| Day 2 | Create API client<br>Managed requests, tokens, and session errors | 2025-09-23 | 2025-09-23 | React + Vite Docs / Project README |
-| Day 3 | Build student pages<br>Jobs, companies, applications, profile, forum | 2025-09-24 | 2025-09-24 | React + Vite Docs / Project README |
-| Day 4 | Build company/admin pages<br>Posts, applicants, users, skills, and management screens | 2025-09-25 | 2025-09-25 | React + Vite Docs / Project README |
+| Day 1 | Set up React + Vite and the API client<br>Manage requests, tokens, and session errors | 2026-07-20 | 2026-07-20 | React + Vite Docs / Project README |
+| Day 2 | Build student, company, and admin pages<br>Jobs, applications, profile, posts, applicants, users, and skills | 2026-07-21 | 2026-07-21 | React + Vite Docs / Project README |
+| Day 3 | Create RDS PostgreSQL and configure the production database<br>Update `DATABASE_URL`, Security Groups, and Alembic migrations | 2026-07-22 | 2026-07-22 | Amazon RDS Docs / Alembic Docs |
+| Day 4 | Build the frontend and configure production settings<br>Set `VITE_API_URL` and verify CORS between frontend and backend | 2026-07-23 | 2026-07-23 | Vite Docs / CORS Docs |
 
 ### Results
 
-The frontend can work with real backend data. After login, users are routed to the interface that matches their role.
+The frontend can work with real backend data, and the production database is separated into RDS PostgreSQL. The application has clearer configuration between local and production environments.

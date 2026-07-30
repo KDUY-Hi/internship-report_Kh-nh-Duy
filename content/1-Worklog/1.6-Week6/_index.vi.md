@@ -1,6 +1,6 @@
-﻿---
-title: "Tuần 6 - Upload CV và S3"
-date: 2024-01-01
+---
+title: "Tuần 6 - S3 và deploy backend trên EC2"
+date: 2026-07-13
 weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
@@ -8,19 +8,19 @@ pre: " <b> 1.6. </b> "
 
 ### Mục tiêu
 
-- Thiết kế cách lưu file CV an toàn.
-- Tích hợp backend với Amazon S3.
-- Đảm bảo chỉ người có quyền mới xem được CV.
+- Thiết kế cách lưu file CV an toàn bằng Amazon S3.
+- Chuẩn bị môi trường EC2 để chạy FastAPI backend.
+- Cấu hình IAM và Security Group cơ bản cho backend.
 
 ### Công việc đã thực hiện
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | Tìm hiểu S3 private bucket<br>Không public CV trực tiếp | 15/09/2025 | 15/09/2025 | Amazon S3 Docs / Boto3 Docs |
-| 3 | Thiết kế storage reference<br>Database chỉ lưu object key | 16/09/2025 | 16/09/2025 | Amazon S3 Docs / Boto3 Docs |
-| 4 | Upload CV qua backend<br>Backend kiểm tra file và lưu lên S3 | 17/09/2025 | 17/09/2025 | Amazon S3 Docs / Boto3 Docs |
-| 5 | Presigned URL<br>Company xem CV qua URL tạm thời | 18/09/2025 | 18/09/2025 | Amazon S3 Docs / Boto3 Docs |
+| 2 | Tìm hiểu S3 private bucket và IAM Role<br>Không public CV trực tiếp, backend kiểm soát quyền truy cập | 13/07/2026 | 13/07/2026 | Amazon S3 Docs / IAM Docs |
+| 3 | Thiết kế storage reference và upload CV<br>Database chỉ lưu object key, backend kiểm tra file trước khi upload | 14/07/2026 | 14/07/2026 | Amazon S3 Docs / Boto3 Docs |
+| 4 | Chuẩn bị EC2 cho backend<br>Cài Python, virtual environment, dependencies và chạy Uvicorn | 15/07/2026 | 15/07/2026 | Amazon EC2 Docs / FastAPI Docs |
+| 5 | Cấu hình Security Group và kiểm tra API<br>Mở port cần thiết, kiểm tra health endpoint và quyền truy cập backend | 16/07/2026 | 16/07/2026 | Amazon EC2 Docs / Security Group Docs |
 
 ### Kết quả đạt được
 
-CV được xử lý theo hướng bảo mật hơn: file nằm trong S3 private bucket, backend kiểm soát quyền truy cập và chỉ tạo presigned URL ngắn hạn cho user hợp lệ.
+Backend có thể xử lý upload CV theo hướng bảo mật hơn và có quy trình chạy thử trên EC2. Nhóm hiểu rõ hơn cách kết hợp S3, IAM Role, EC2 và Security Group khi triển khai backend lên môi trường cloud.

@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Week 1 - Project Kickoff"
-date: 2024-01-01
+date: 2026-06-08
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
@@ -16,10 +16,10 @@ pre: " <b> 1.1. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference |
 | --- | --- | --- | --- | --- |
-| Day 1 | Analyze the needs of students, companies, and admins<br>Defined three main user groups | 2025-08-11 | 2025-08-11 | AWS Study Group / AWS Docs |
-| Day 2 | Study web application architecture on AWS<br>Selected React frontend, FastAPI backend, and PostgreSQL database | 2025-08-12 | 2025-08-12 | AWS Study Group / AWS Docs |
-| Day 3 | Initialize the project repository<br>Created `backend`, `frontend`, and `deploy` folders | 2025-08-13 | 2025-08-13 | AWS Study Group / AWS Docs |
-| Day 4 | Review basic AWS materials<br>Understood the roles of EC2, S3, RDS, IAM, and CloudWatch | 2025-08-14 | 2025-08-14 | AWS Study Group / AWS Docs |
+| Day 1 | Analyze the needs of students, companies, and admins<br>Defined three main user groups | 2026-06-08 | 2026-06-08 | AWS Study Group / AWS Docs |
+| Day 2 | Study web application architecture on AWS<br>Selected React frontend, FastAPI backend, and PostgreSQL database | 2026-06-09 | 2026-06-09 | AWS Study Group / AWS Docs |
+| Day 3 | Initialize the project repository<br>Created `backend`, `frontend`, and `deploy` folders | 2026-06-10 | 2026-06-10 | AWS Study Group / AWS Docs |
+| Day 4 | Review basic AWS materials<br>Understood the roles of EC2, S3, RDS, IAM, and CloudWatch | 2026-06-11 | 2026-06-11 | AWS Study Group / AWS Docs |
 
 ### Results
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Tuần 5 - Admin và dữ liệu nền"
-date: 2024-01-01
+date: 2026-07-06
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
@@ -15,10 +15,10 @@ pre: " <b> 1.5. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | Admin quản lý người dùng<br>Xem danh sách, khóa/mở khóa tài khoản | 08/09/2025 | 08/09/2025 | Project README / Admin API |
-| 3 | Admin duyệt bài đăng<br>Approve, reject, close hoặc delete internship post | 09/09/2025 | 09/09/2025 | Project README / Admin API |
-| 4 | Quản lý kỹ năng<br>Thêm kỹ năng dùng cho lọc và nhập liệu | 10/09/2025 | 10/09/2025 | Project README / Admin API |
-| 5 | Quản lý job positions<br>Chuẩn hóa vị trí tuyển dụng | 11/09/2025 | 11/09/2025 | Project README / Admin API |
+| 2 | Admin quản lý người dùng<br>Xem danh sách, khóa/mở khóa tài khoản | 06/07/2026 | 06/07/2026 | Project README / Admin API |
+| 3 | Admin duyệt bài đăng<br>Approve, reject, close hoặc delete internship post | 07/07/2026 | 07/07/2026 | Project README / Admin API |
+| 4 | Quản lý kỹ năng<br>Thêm kỹ năng dùng cho lọc và nhập liệu | 08/07/2026 | 08/07/2026 | Project README / Admin API |
+| 5 | Quản lý job positions<br>Chuẩn hóa vị trí tuyển dụng | 09/07/2026 | 09/07/2026 | Project README / Admin API |
 
 ### Kết quả đạt được
 
