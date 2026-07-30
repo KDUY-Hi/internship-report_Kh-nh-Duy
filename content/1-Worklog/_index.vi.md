@@ -8,8 +8,8 @@ pre: " <b> 1. </b> "
 
 Phần worklog ghi nhận quá trình học tập và triển khai dự án **Cloud-based Student Internship Portal on AWS**. Nội dung được chia thành hai nhóm chính:
 
-- **Backend:** phân tích yêu cầu, thiết kế cơ sở dữ liệu, xây dựng API FastAPI, xác thực JWT, phân quyền theo vai trò và kiểm thử luồng nghiệp vụ.
-- **AWS và triển khai:** tìm hiểu các dịch vụ cloud cần dùng cho dự án, gồm EC2, S3, RDS PostgreSQL, IAM, Security Group, CloudWatch và quy trình deploy frontend/backend.
+- **Backend:** 3 tuần đầu tập trung vào phân tích yêu cầu, thiết kế cơ sở dữ liệu, xây dựng API FastAPI, xác thực JWT và phân quyền theo vai trò.
+- **AWS và triển khai:** 5 tuần tiếp theo tập trung vào kiến trúc cloud, IAM, VPC, Security Group, S3, EC2, RDS PostgreSQL, CloudWatch và quy trình deploy frontend/backend.
 
 ### Tổng quan theo tuần
 
@@ -19,9 +19,9 @@ Phần worklog ghi nhận quá trình học tập và triển khai dự án **Cl
 
 **Tuần 3 (22/06/2026 - 25/06/2026):** [Xây dựng authentication, user role và database schema](1.3-week3/)
 
-**Tuần 4 (29/06/2026 - 02/07/2026):** [Phát triển module sinh viên và doanh nghiệp](1.4-week4/)
+**Tuần 4 (29/06/2026 - 02/07/2026):** [Tìm hiểu kiến trúc AWS, IAM, VPC và Security Group](1.4-week4/)
 
-**Tuần 5 (06/07/2026 - 09/07/2026):** [Phát triển module admin, duyệt bài và quản lý dữ liệu nền](1.5-week5/)
+**Tuần 5 (06/07/2026 - 09/07/2026):** [Chuẩn bị S3, RDS và EC2 cho môi trường cloud](1.5-week5/)
 
 **Tuần 6 (13/07/2026 - 16/07/2026):** [Upload CV, tích hợp S3 và deploy backend trên EC2](1.6-week6/)
 

@@ -1,5 +1,5 @@
 ---
-title: "Tuần 5 - Admin và dữ liệu nền"
+title: "Tuần 5 - Chuẩn bị S3, RDS và EC2"
 date: 2026-07-06
 weight: 5
 chapter: false
@@ -8,18 +8,19 @@ pre: " <b> 1.5. </b> "
 
 ### Mục tiêu
 
-- Bổ sung chức năng admin để kiểm soát chất lượng dữ liệu.
-- Chuẩn hóa danh sách kỹ năng và vị trí tuyển dụng.
+- Chuẩn bị các dịch vụ AWS cốt lõi cho project.
+- Thiết kế cách lưu CV bằng S3 private bucket.
+- Lên kế hoạch triển khai backend trên EC2 và database trên RDS PostgreSQL.
 
 ### Công việc đã thực hiện
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | Admin quản lý người dùng<br>Xem danh sách, khóa/mở khóa tài khoản | 06/07/2026 | 06/07/2026 | Project README / Admin API |
-| 3 | Admin duyệt bài đăng<br>Approve, reject, close hoặc delete internship post | 07/07/2026 | 07/07/2026 | Project README / Admin API |
-| 4 | Quản lý kỹ năng<br>Thêm kỹ năng dùng cho lọc và nhập liệu | 08/07/2026 | 08/07/2026 | Project README / Admin API |
-| 5 | Quản lý job positions<br>Chuẩn hóa vị trí tuyển dụng | 09/07/2026 | 09/07/2026 | Project README / Admin API |
+| 2 | Tìm hiểu Amazon S3 cho file storage<br>Thiết kế bucket private để lưu CV và tránh public dữ liệu nhạy cảm | 06/07/2026 | 06/07/2026 | Amazon S3 Docs |
+| 3 | Tìm hiểu Amazon RDS PostgreSQL<br>Xác định database production, subnet, security group và quy trình migration | 07/07/2026 | 07/07/2026 | Amazon RDS Docs / PostgreSQL Docs |
+| 4 | Tìm hiểu Amazon EC2 cho backend<br>Chuẩn bị mô hình chạy FastAPI bằng Uvicorn trên Linux server | 08/07/2026 | 08/07/2026 | Amazon EC2 Docs / FastAPI Docs |
+| 5 | Lập checklist triển khai AWS<br>Tổng hợp biến môi trường, secret, inbound rule, CORS và bước kiểm thử sau deploy | 09/07/2026 | 09/07/2026 | AWS Docs / Project checklist |
 
 ### Kết quả đạt được
 
-Hệ thống có cơ chế kiểm duyệt, giúp sinh viên chỉ thấy các bài tuyển dụng đã được admin duyệt. Dữ liệu kỹ năng và vị trí tuyển dụng được chuẩn hóa để phục vụ analytics.
+Nhóm có kế hoạch triển khai AWS rõ ràng hơn trước khi bắt đầu cấu hình thực tế. Các thành phần S3, RDS và EC2 được xác định vai trò cụ thể trong kiến trúc project.
