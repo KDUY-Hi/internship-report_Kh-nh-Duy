@@ -21,7 +21,8 @@ pre: " <b> 9. </b> "
 | Frontend | React Documentation | [https://react.dev/](https://react.dev/) | Xây dựng giao diện frontend. |
 | Frontend | Vite Documentation | [https://vite.dev/](https://vite.dev/) | Cấu hình môi trường phát triển và build frontend. |
 | Source code | Student Internship Portal | [KDUY-Hi/student-internship-portal.git](https://github.com/KDUY-Hi/student-internship-portal.git) | Mã nguồn project thực tiễn được sử dụng trong báo cáo. |
+| Video demo | Demo Student Internship Portal | [Google Drive folder](https://drive.google.com/drive/folders/11p3TurK5dC27rZXCv2UYl-TBn8zCALNR?usp=sharing) | Video demo quá trình vận hành và các chức năng chính của project. |
 
 ## Ghi chú
 
-Các tài liệu trên được sử dụng để tham khảo trong quá trình phân tích yêu cầu, thiết kế kiến trúc, xây dựng project, triển khai lên AWS và viết báo cáo thực tập.
+Các tài liệu trên được sử dụng để tham khảo trong quá trình phân tích yêu cầu, thiết kế kiến trúc, xây dựng project, triển khai lên AWS, quay video demo và viết báo cáo thực tập.

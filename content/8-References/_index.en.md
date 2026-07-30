@@ -21,7 +21,8 @@ pre: " <b> 9. </b> "
 | Frontend | React Documentation | [https://react.dev/](https://react.dev/) | Used to build the frontend interface. |
 | Frontend | Vite Documentation | [https://vite.dev/](https://vite.dev/) | Used for frontend development and build configuration. |
 | Source code | Student Internship Portal | [KDUY-Hi/student-internship-portal.git](https://github.com/KDUY-Hi/student-internship-portal.git) | Source code of the practical project used in this report. |
+| Demo video | Student Internship Portal Demo | [Google Drive folder](https://drive.google.com/drive/folders/11p3TurK5dC27rZXCv2UYl-TBn8zCALNR?usp=sharing) | Demo video showing the main project workflow and features. |
 
 ## Note
 
-These references were used during requirement analysis, architecture design, project implementation, AWS deployment, and internship report writing.
+These references were used during requirement analysis, architecture design, project implementation, AWS deployment, demo recording, and internship report writing.
