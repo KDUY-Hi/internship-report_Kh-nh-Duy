@@ -20,6 +20,7 @@ pre: " <b> 8. </b> "
 | Backend | FastAPI Documentation | [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/) | Xây dựng REST API cho backend. |
 | Frontend | React Documentation | [https://react.dev/](https://react.dev/) | Xây dựng giao diện frontend. |
 | Frontend | Vite Documentation | [https://vite.dev/](https://vite.dev/) | Cấu hình môi trường phát triển và build frontend. |
+| Source code | Student Internship Portal | [KDUY-Hi/student-internship-portal.git](https://github.com/KDUY-Hi/student-internship-portal.git) | Mã nguồn project thực tiễn được sử dụng trong báo cáo. |
 
 ## Ghi chú
 

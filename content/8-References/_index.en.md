@@ -20,6 +20,7 @@ pre: " <b> 8. </b> "
 | Backend | FastAPI Documentation | [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/) | Used to build backend REST APIs. |
 | Frontend | React Documentation | [https://react.dev/](https://react.dev/) | Used to build the frontend interface. |
 | Frontend | Vite Documentation | [https://vite.dev/](https://vite.dev/) | Used for frontend development and build configuration. |
+| Source code | Student Internship Portal | [KDUY-Hi/student-internship-portal.git](https://github.com/KDUY-Hi/student-internship-portal.git) | Source code of the practical project used in this report. |
 
 ## Note
 
