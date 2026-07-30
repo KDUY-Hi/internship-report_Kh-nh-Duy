@@ -8,6 +8,10 @@ pre : " <b> 5.1. </b> "
 
 Workshop triển khai dự án **Student Internship Portal** trên AWS theo mô hình web application nhiều thành phần.
 
+## Sơ đồ kiến trúc
+
+![Sơ đồ kiến trúc triển khai Student Internship Portal trên AWS](../../images/architure.png)
+
 ## Thành phần chính
 
 ```text

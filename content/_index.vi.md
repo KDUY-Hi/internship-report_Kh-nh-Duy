@@ -21,7 +21,7 @@ chapter: false
 
 **Ngành:** Khoa học Máy tính
 
-**Lớp:** AWS082025
+**Lớp:** AWS082026
 
 **Công ty thực tập:** Amazon Web Services Viet Nam Company Limited
 

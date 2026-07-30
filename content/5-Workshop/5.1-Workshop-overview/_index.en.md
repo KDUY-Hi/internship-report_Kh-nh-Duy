@@ -8,6 +8,10 @@ pre : " <b> 5.1. </b> "
 
 The workshop deploys the **Student Internship Portal** on AWS using a multi-component web application architecture.
 
+## Architecture Diagram
+
+![Student Internship Portal AWS deployment architecture diagram](../../../images/architure.png)
+
 ## Main Components
 
 ```text
