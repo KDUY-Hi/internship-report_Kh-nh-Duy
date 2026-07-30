@@ -3,7 +3,7 @@ title: "Các bài blog đã đăng"
 date: 2026-07-29
 weight: 4
 chapter: false
-pre: " <b> 3.4. </b> "
+pre: " <b> 4. </b> "
 ---
 
 ## Tổng quan

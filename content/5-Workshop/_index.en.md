@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Workshop"
 date: 2024-01-01
-weight: 5
+weight: 6
 chapter: false
-pre: " <b> 5. </b> "
+pre: " <b> 6. </b> "
 ---
 
 This workshop focuses on the main cloud techniques used to move the project from a local environment to AWS. The content follows the project problem: building an internship portal with backend, frontend, database, private CV storage, and basic logging.

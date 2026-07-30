@@ -13,7 +13,6 @@ pre: " <b> 3. </b> "
 1. [Backend API](3.1-Blog1/)
 2. [Frontend Application](3.2-Blog2/)
 3. [Luồng nghiệp vụ và kiểm thử](3.3-Blog3/)
-4. [Các bài blog đã đăng](3.4-BlogsPosted/)
 
 ## Công nghệ sử dụng
 

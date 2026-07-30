@@ -1,9 +1,9 @@
-﻿---
+---
 title : "Tổng quan kiến trúc"
 date : 2024-01-01
 weight : 1
 chapter : false
-pre : " <b> 5.1. </b> "
+pre : " <b> 6.1. </b> "
 ---
 
 Workshop triển khai dự án **Student Internship Portal** trên AWS theo mô hình web application nhiều thành phần.

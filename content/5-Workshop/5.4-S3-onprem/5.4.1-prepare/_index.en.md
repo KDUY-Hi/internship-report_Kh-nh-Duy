@@ -1,9 +1,9 @@
-﻿---
+---
 title : "Prepare EC2 and RDS"
 date : 2024-01-01
 weight : 1
 chapter : false
-pre : " <b> 5.4.1. </b> "
+pre : " <b> 6.4.1. </b> "
 ---
 
 ## RDS PostgreSQL

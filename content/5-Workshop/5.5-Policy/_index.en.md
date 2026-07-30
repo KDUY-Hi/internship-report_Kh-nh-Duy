@@ -1,9 +1,9 @@
-﻿---
+---
 title : "IAM, Security, and CORS"
 date : 2024-01-01
 weight : 5
 chapter : false
-pre : " <b> 5.5. </b> "
+pre : " <b> 6.5. </b> "
 ---
 
 ## IAM

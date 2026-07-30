@@ -3,7 +3,7 @@ title: "FCAJ x Agentic AI Build Week"
 date: 2026-07-25
 weight: 2
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b> 5.2. </b> "
 ---
 
 ## Thông tin sự kiện

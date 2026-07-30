@@ -3,7 +3,7 @@ title: "Chung kết cuộc thi Cloud Architect"
 date: 2026-07-11
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 5.1. </b> "
 ---
 
 ## Thông tin sự kiện

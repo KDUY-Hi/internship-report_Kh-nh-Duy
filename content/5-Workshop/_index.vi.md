@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Workshop"
 date: 2024-01-01
-weight: 5
+weight: 6
 chapter: false
-pre: " <b> 5. </b> "
+pre: " <b> 6. </b> "
 ---
 
 Workshop tập trung vào các kỹ thuật cloud chính được sử dụng để đưa dự án từ môi trường local lên AWS. Nội dung bám theo bài toán: xây dựng một cổng thông tin thực tập có backend, frontend, database, lưu trữ CV riêng tư và logging cơ bản.

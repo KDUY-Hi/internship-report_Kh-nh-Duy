@@ -1,9 +1,9 @@
-﻿---
+---
 title : "Configuring S3 CV Storage"
 date : 2024-01-01
 weight : 3
 chapter : false
-pre : " <b> 5.3. </b> "
+pre : " <b> 6.3. </b> "
 ---
 
 Amazon S3 is used to store student CV files. Because CVs contain personal data, the bucket must be private.

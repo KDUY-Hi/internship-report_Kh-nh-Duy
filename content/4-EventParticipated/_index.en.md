@@ -1,9 +1,9 @@
-﻿---
+---
 title: "Events Participated"
 date: 2024-01-01
-weight: 4
+weight: 5
 chapter: false
-pre: " <b> 4. </b> "
+pre: " <b> 5. </b> "
 ---
 
 During the internship and project implementation, I participated in learning activities, workshops, and technical discussions related to AWS, backend development, and cloud application deployment.
