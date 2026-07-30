@@ -15,7 +15,7 @@ During the project, the team not only built a practical application but also sum
 | Blog | Topic | Main Content | Learning Value | Link |
 | --- | --- | --- | --- | --- |
 | Blog 1 | Building Secure Applications from the Design Phase with AWS Security Agent | Explains why security should be considered during system design, introduces AWS Security Agent, Threat Modeling, and applies the ideas to the Student Internship Portal project. | Learned the "Design for Security" mindset, how to identify architectural risks early, and how to improve AWS deployments more securely. | [Facebook post](https://www.facebook.com/groups/660548818043427?multi_permalinks=2227782947986665) |
-| Blog 2 | Backend API and Database Design | Describes how the backend was built with FastAPI and how the Auth, Student, Company, Admin, Internship, Analytics, and Forum modules were designed. | Strengthened knowledge of REST APIs, role-based authorization, database design, and backend business logic. | To be updated |
+| Blog 2 | AI Code Review with AWS Security Agent | Explains how AWS Security Agent helps analyze source code and detect security risks in login APIs, CV upload, and internship-post management before deployment. | Learned that an application can work functionally but still be insecure, and gained a clearer understanding of secure coding and automated code review. | [Facebook post](https://www.facebook.com/groups/660548818043427/?multi_permalinks=2228768907888069) |
 | Blog 3 | Deploying the Project on AWS | Summarizes how the backend was deployed on EC2, how RDS PostgreSQL was used for the database, how S3 stored CV files, and how CloudWatch supported log monitoring. | Understood the process of moving an application from local development to the cloud and the key points to consider during deployment. | To be updated |
 
 ## Blog 1 - Building Secure Applications from the Design Phase with AWS Security Agent
@@ -49,6 +49,38 @@ Through this blog post, I learned that a good architecture is not only one that 
 Blog post link: [Facebook post](https://www.facebook.com/groups/660548818043427?multi_permalinks=2227782947986665)
 
 Reference: [AWS Security Agent](https://aws.amazon.com/vi/security-agent/)
+
+## Blog 2 - AI Code Review with AWS Security Agent
+
+The second blog post in the **AWS Security Agent** series focuses on the stage after the initial system design: reviewing source code before the application is deployed. The main idea is that an application working correctly from a functional perspective does not necessarily mean that it is secure against real-world attacks.
+
+The post emphasizes that many security vulnerabilities appear during implementation. An API may satisfy business requirements but still contain authentication issues, insufficient input validation, weak authorization checks, or logs that expose sensitive information. These problems are often difficult to detect through normal functional testing.
+
+### AI Code Review
+
+AI Code Review is the process of using artificial intelligence to analyze source code, identify security risks, and suggest improvements. Unlike tools that only check syntax or code formatting, AI Code Review tries to understand the application context, including processing flows, API data, authentication logic, authorization mechanisms, and interactions with databases or external services.
+
+With AWS Security Agent, review can be applied to Pull Requests or to the whole project. The Agent can read new code, identify risky areas, explain the cause, assess the potential impact, and recommend suitable fixes.
+
+### Connection to the Student Internship Portal Project
+
+The blog uses the **Cloud-based Student Internship Portal on AWS** project to illustrate common security issues in code.
+
+For the **login API**, AWS Security Agent can check risks such as overly long JWT lifetimes, missing login-attempt limits, improper password handling, or error messages that reveal too much information. For example, if the system returns separate messages such as "Email does not exist" and "Incorrect password", attackers may use the difference to identify valid accounts. A safer approach is to use a generic message such as "Email or password is incorrect".
+
+For the **CV upload API**, successful upload does not guarantee security. The system should validate file type, file size, file name, actual file content, and the way files are stored on S3. AWS Security Agent can suggest additional checks to reduce the risk of malicious or invalid file uploads.
+
+For the **internship-post management API**, a common issue is checking only whether a user is logged in without checking whether the user owns the resource. This can lead to one company editing or deleting another company's internship posts. The Agent can identify missing authorization checks and suggest verifying ownership before performing the action.
+
+### Value of AWS Security Agent
+
+An important value of AWS Security Agent is that it does not only point out problematic code. It also explains why the issue is a security risk, what the impact could be if exploited, how an attacker might abuse it, and how to fix it. This makes code review a learning activity for secure coding, especially for development teams with limited security experience.
+
+### Key Takeaways
+
+Through this blog post, I learned that functional testing and security review are different perspectives. Features such as login, CV upload, and internship-post management may work correctly but still need careful review for authentication, authorization, validation, logging, and data access control. Integrating AI Code Review into the development workflow helps detect risks earlier, reduce remediation cost, and improve code quality before deployment.
+
+Blog post link: [Facebook post](https://www.facebook.com/groups/660548818043427/?multi_permalinks=2228768907888069)
 
 ## Lessons Learned
 
