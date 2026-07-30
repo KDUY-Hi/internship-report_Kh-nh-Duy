@@ -14,7 +14,7 @@ During the project, the team not only built a practical application but also sum
 
 | Blog | Topic | Main Content | Learning Value | Link |
 | --- | --- | --- | --- | --- |
-| Blog 1 | Building Secure Applications from the Design Phase with AWS Security Agent | Explains why security should be considered during system design, introduces AWS Security Agent, Threat Modeling, and applies the ideas to the Student Internship Portal project. | Learned the "Design for Security" mindset, how to identify architectural risks early, and how to improve AWS deployments more securely. | To be updated |
+| Blog 1 | Building Secure Applications from the Design Phase with AWS Security Agent | Explains why security should be considered during system design, introduces AWS Security Agent, Threat Modeling, and applies the ideas to the Student Internship Portal project. | Learned the "Design for Security" mindset, how to identify architectural risks early, and how to improve AWS deployments more securely. | [Facebook post](https://www.facebook.com/groups/660548818043427?multi_permalinks=2227782947986665) |
 | Blog 2 | Backend API and Database Design | Describes how the backend was built with FastAPI and how the Auth, Student, Company, Admin, Internship, Analytics, and Forum modules were designed. | Strengthened knowledge of REST APIs, role-based authorization, database design, and backend business logic. | To be updated |
 | Blog 3 | Deploying the Project on AWS | Summarizes how the backend was deployed on EC2, how RDS PostgreSQL was used for the database, how S3 stored CV files, and how CloudWatch supported log monitoring. | Understood the process of moving an application from local development to the cloud and the key points to consider during deployment. | To be updated |
 
@@ -45,6 +45,8 @@ One practical example is deploying Amazon RDS with public access enabled for con
 ### Key Takeaways
 
 Through this blog post, I learned that a good architecture is not only one that works correctly, but also one that is secure, controllable, and able to reduce risks early. Evaluating security from the design phase helps reduce remediation cost, supports developers in understanding the impact of architectural decisions, and establishes a foundation for DevSecOps thinking in later development stages.
+
+Blog post link: [Facebook post](https://www.facebook.com/groups/660548818043427?multi_permalinks=2227782947986665)
 
 Reference: [AWS Security Agent](https://aws.amazon.com/vi/security-agent/)
 

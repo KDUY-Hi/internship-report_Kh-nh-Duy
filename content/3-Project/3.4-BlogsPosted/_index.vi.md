@@ -14,7 +14,7 @@ Trong quá trình thực hiện project, nhóm không chỉ xây dựng ứng d�
 
 | Bài blog | Chủ đề | Nội dung chính | Giá trị học được | Liên kết |
 | --- | --- | --- | --- | --- |
-| Blog 1 | Xây dựng ứng dụng an toàn ngay từ bản thiết kế với AWS Security Agent | Trình bày lý do bảo mật cần được xem xét từ giai đoạn thiết kế, giới thiệu AWS Security Agent, Threat Modeling và cách áp dụng vào project Student Internship Portal. | Hiểu tư duy "Design for Security", cách phát hiện rủi ro kiến trúc sớm và cách cải thiện triển khai AWS an toàn hơn. | Cập nhật sau |
+| Blog 1 | Xây dựng ứng dụng an toàn ngay từ bản thiết kế với AWS Security Agent | Trình bày lý do bảo mật cần được xem xét từ giai đoạn thiết kế, giới thiệu AWS Security Agent, Threat Modeling và cách áp dụng vào project Student Internship Portal. | Hiểu tư duy "Design for Security", cách phát hiện rủi ro kiến trúc sớm và cách cải thiện triển khai AWS an toàn hơn. | [Facebook post](https://www.facebook.com/groups/660548818043427?multi_permalinks=2227782947986665) |
 | Blog 2 | Thiết kế backend API và database | Mô tả cách xây dựng backend bằng FastAPI, thiết kế các module Auth, Student, Company, Admin, Internship, Analytics và Forum. | Củng cố kiến thức về REST API, phân quyền theo role, thiết kế database và xử lý nghiệp vụ backend. | Cập nhật sau |
 | Blog 3 | Triển khai project trên AWS | Tóm tắt cách triển khai backend lên EC2, sử dụng RDS PostgreSQL cho database, S3 để lưu CV và CloudWatch để theo dõi log. | Hiểu quy trình đưa ứng dụng từ môi trường local lên cloud và các điểm cần chú ý khi deploy. | Cập nhật sau |
 
@@ -45,6 +45,8 @@ Một ví dụ cụ thể là việc triển khai Amazon RDS với cấu hình p
 ### Bài học chính
 
 Thông qua bài blog này, em rút ra rằng một kiến trúc tốt không chỉ là kiến trúc hoạt động đúng chức năng, mà còn phải an toàn, dễ kiểm soát và có khả năng giảm thiểu rủi ro từ sớm. Việc đánh giá bảo mật ngay từ giai đoạn thiết kế giúp giảm chi phí sửa lỗi, hỗ trợ nhóm phát triển hiểu rõ hơn tác động của từng quyết định kiến trúc và đặt nền tảng cho tư duy DevSecOps trong các giai đoạn tiếp theo.
+
+Link bài đăng: [Facebook post](https://www.facebook.com/groups/660548818043427?multi_permalinks=2227782947986665)
 
 Tài liệu tham khảo: [AWS Security Agent](https://aws.amazon.com/vi/security-agent/)
 
